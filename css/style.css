@@ -11,13 +11,13 @@ h1 {
   font-size: 65px;
   color: #eec303;
   text-decoration: underline;
-  margin-bottom: 20px;
+  margin-bottom: 18px;
 }
 
 .Introduction {
   text-align: left;
   font-family: 'BernhardFashion BT', sans-serif;
-  font-size: 32px;
+  font-size: 30x;
   color: #fa5e5e;
   font-style: italic;
   margin-bottom: 20px;
@@ -26,7 +26,7 @@ h1 {
 .gif-title {
   text-align: center;
   font-family: 'Arial', sans-serif;
-  font-size: 38px;
+  font-size: 32px;
   color: rgb(187, 1, 1);
   margin-top: 20px;
   margin-bottom: 8px;
@@ -48,12 +48,29 @@ h1 {
   margin-bottom: 20px;
 }
 
+.planet-gif-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 30px 0;
+}
+
+.planet {
+  text-align: center;
+}
+
+.planet-gif {
+  width: 150px;
+  height: 150px;
+  border: 1px solid #c40101;
+}
+
 .table-intro-text {
   text-align: center;
   font-family: 'BernhardFashion BT', sans-serif;
   font-size: 32px;
   font-style: italic;
-  color: #fa5e5e;
+  color: #ce0202;
   margin-bottom: 8px;
 }
 
@@ -113,11 +130,10 @@ header {
   margin-bottom: 10px;
   padding-left: 25px;
   position: relative;
-  text-align: center;
 }
 
 .info-list li span {
-  color: rgb(2, 255, 2);
+  color: rgb(2, 160, 2);
   font-size: 22px;
   position: absolute;
   left: 0;
