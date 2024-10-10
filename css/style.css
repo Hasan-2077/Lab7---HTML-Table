@@ -112,7 +112,8 @@ header {
 .info-list li {
   margin-bottom: 10px;
   padding-left: 25px;
-  position: center;
+  position: relative;
+  text-align: center;
 }
 
 .info-list li span {
