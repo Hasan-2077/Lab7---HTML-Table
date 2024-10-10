@@ -1,4 +1,59 @@
-td, th {
-	border: 1px solid;
-  }
-  
+/* General page styling */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f8ff;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #2a9df4;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.intro-text {
+  text-align: center;
+  font-style: italic;
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+/* Table styling */
+#planet-facts-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+#planet-facts-table th, #planet-facts-table td {
+  border: 1px solid #333;
+  padding: 12px;
+  text-align: center;
+}
+
+#planet-facts-table th {
+  background-color: #2a9df4;
+  color: white;
+  font-weight: bold;
+}
+
+#planet-facts-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#planet-facts-table tr:hover {
+  background-color: #ddd;
+}
+
+/* Additional styling */
+header {
+  padding-bottom: 20px;
+}
+
+table td:first-child {
+  font-weight: bold;
+  color: #2a9df4;
+}
