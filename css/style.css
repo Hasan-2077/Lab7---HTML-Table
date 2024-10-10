@@ -2,7 +2,7 @@ body {
   font-family: 'Bertram Let', sans-serif;
   background-color: #f0f8ff;
   margin: 0;
-  padding: 20px;
+  padding: 16px;
 }
 
 h1 {
@@ -11,16 +11,16 @@ h1 {
   font-size: 65px;
   color: #ffd000;
   text-decoration: underline;
-  margin-bottom: 38px;
+  margin-bottom: 30px;
 }
 
 .Introduction {
-  text-align: center;
+  text-align: left;
   font-family: 'BernhardFashion BT', sans-serif;
   font-size: 32px;
   color: #fa5e5e;
   font-style: italic;
-  margin-bottom: 35px;
+  margin-bottom: 25px;
 }
 
 .gif-title {
@@ -36,6 +36,7 @@ h1 {
   display: block;
   margin: 0 auto;
   width: 33%;
+  margin-bottom: 12px;
 }
 
 .solar-system-text {
@@ -43,7 +44,7 @@ h1 {
   font-family: 'BernhardFashion BT', sans-serif;
   font-size: 25px;
   color: #d602a8;
-  margin: 35px;
+  margin: 30px;
 }
 
 .table-intro-text {
