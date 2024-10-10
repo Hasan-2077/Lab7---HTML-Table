@@ -25,9 +25,9 @@ h1 {
 .gif-title {
   text-align: center;
   font-family: 'Arial', sans-serif;
-  font-size: 32px;
+  font-size: 28px;
   color: rgb(187, 1, 1);
-  margin-top: 20px;
+  margin-top: 18px;
   margin-bottom: 8px;
 }
 
@@ -57,7 +57,7 @@ h1 {
 .table-intro-text {
   text-align: center;
   font-family: 'BernhardFashion BT', sans-serif;
-  font-size: 32px;
+  font-size: 30px;
   font-style: italic;
   color: #ce0202;
   margin-bottom: 8px;
@@ -110,7 +110,7 @@ header {
 .planet {
   text-align: center;
   font-family: 'BernhardFashion BT', sans-serif;
-  font-size: 30px;
+  font-size: 20px;
 
 }
 
