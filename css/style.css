@@ -25,13 +25,10 @@ h1 {
   display: inline-block;
   padding: 10px;
   border-radius: 10px;
-  text-align: center;
   font-family: 'Bertram Let', sans-serif;
   font-size: 65px;
   color: #eec303;
   text-decoration: underline;
-  margin-bottom: 12px;
-  margin-top: -20px;
 }
 
 .Introduction {
