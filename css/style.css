@@ -141,3 +141,8 @@ header {
   left: 0;
   top: 0;
 }
+
+.gold {
+  color: #ddbc02;
+  font-weight: bold;
+}
