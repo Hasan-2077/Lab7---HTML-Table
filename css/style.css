@@ -140,8 +140,8 @@ h1 {
 }
 
 .planet-gif {
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
   border: 1px solid #ffbb01;
 }
 
@@ -161,7 +161,7 @@ h1 {
 }
 
 .info-list li span {
-  color: rgb(2, 160, 2);
+  color: rgb(255, 61, 35);
   font-size: 22px;
   position: absolute;
   left: 0;
