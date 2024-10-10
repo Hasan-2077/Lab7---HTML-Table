@@ -7,17 +7,53 @@ body {
 
 h1 {
   text-align: center;
-  color: #2a9df4;
-  font-size: 36px;
+  font-family: 'Bertram Let', sans-serif;
+  font-size: 41px;
+  color: #FFD700;
+  text-decoration: underline;
   margin-bottom: 20px;
 }
 
 .Introduction {
   text-align: center;
+  font-family: 'BernhardFashion BT', sans-serif;
+  font-size: 38px;
+  color: #FFB6C1;
+  font-weight: bold;
   font-style: italic;
-  font-size: 20px;
-  font-family: 'Times New Roman', Times, serif;
-  color: #00008b;
+  margin-bottom: 30px;
+}
+
+.gif-title {
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  font-size: 30px;
+  color: darkred;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.solar-system-gif {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+}
+
+.solar-system-text {
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  font-size: 18px;
+  color: #333;
+  margin: 15px 0;
+}
+
+.table-intro-text {
+  text-align: center;
+  font-family: 'BernhardFashion BT', sans-serif;
+  font-size: 28px;
+  font-style: italic;
+  font-weight: bold;
+  color: #333;
   margin-bottom: 30px;
 }
 
@@ -38,9 +74,19 @@ h1 {
 }
 
 #Facts-About-Planets th {
-  background-color: #2a9df4;
-  color: white;
+  background-color: #FFB6C1;
+  color: #FFD700;
   font-weight: bold;
+}
+
+#Facts-About-Planets td {
+  background-color: white;
+  color: black;
+}
+
+#Facts-About-Planets td:first-child {
+  font-weight: bold;
+  color: #FFD700;
 }
 
 #Facts-About-Planets tr:nth-child(even) {
@@ -53,9 +99,4 @@ h1 {
 
 header {
   padding-bottom: 20px;
-}
-
-#Facts-About-Planets td:first-child {
-  font-weight: bold;
-  color: #2a9df4;
 }
