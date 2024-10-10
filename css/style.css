@@ -11,7 +11,7 @@ h1 {
   font-size: 65px;
   color: #ffd000;
   text-decoration: underline;
-  margin-bottom: 30px;
+  margin-bottom: 25px;
 }
 
 .Introduction {
@@ -36,7 +36,7 @@ h1 {
   display: block;
   margin: 0 auto;
   width: 33%;
-  margin-bottom: 12px;
+  margin-bottom: 10px;
 }
 
 .solar-system-text {
@@ -45,6 +45,7 @@ h1 {
   font-size: 25px;
   color: #d602a8;
   margin: 30px;
+  margin-bottom: 25px;
 }
 
 .table-intro-text {
@@ -98,4 +99,26 @@ h1 {
 
 header {
   padding-bottom: 20px;
+}
+
+.info-list {
+  margin-top: 30px;
+  font-size: 18px;
+  color: #333;
+  line-height: 1.6;
+  list-style-type: none; /* Remove default bullets */
+}
+
+.info-list li {
+  margin-bottom: 10px;
+  padding-left: 25px;
+  position: relative;
+}
+
+.info-list li span {
+  color: green; /* Checkmark color */
+  font-size: 22px;
+  position: absolute;
+  left: 0;
+  top: 0;
 }
