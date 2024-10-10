@@ -1,15 +1,25 @@
 body {
-  background-image: url("..images/background.jpg");
+  background-color: #f0f8ff;
+  margin: 0;
+  padding: 16px;
 }
+
 header {
   position: relative;
   text-align: center;
   padding: 50px 0;
 }
 
+.banner-container {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+
 .banner-image {
   width: 100%;
-  height: auto;
+  height: 100%;
+  object-fit: cover;
   position: absolute;
   top: 0;
   left: 0;
@@ -129,12 +139,11 @@ header {
   font-family: 'BernhardFashion BT', sans-serif;
   font-size: 20px;
   color: #ff5151;
-
 }
 
 .planet-gif {
-  width: 150px;
-  height: 150px;
+  width: 220px;
+  height: 220px;
   border: 1px solid #ffbb01;
 }
 
