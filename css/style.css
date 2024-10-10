@@ -13,7 +13,7 @@ h1 {
   margin-bottom: 20px;
 }
 
-.intro-text {
+.Introduction {
   text-align: center;
   font-style: italic;
   font-size: 18px;
@@ -22,29 +22,29 @@ h1 {
 }
 
 /* Table styling */
-#planet-facts-table {
+#Facts-About-Planets {
   width: 100%;
   border-collapse: collapse;
   margin: 0 auto;
 }
 
-#planet-facts-table th, #planet-facts-table td {
+#Facts-About-Planets th, #Facts-About-Planets td {
   border: 1px solid #333;
   padding: 12px;
   text-align: center;
 }
 
-#planet-facts-table th {
+#Facts-About-Planets th {
   background-color: #2a9df4;
   color: white;
   font-weight: bold;
 }
 
-#planet-facts-table tr:nth-child(even) {
+#Facts-About-Planets tr:nth-child(even) {
   background-color: #f2f2f2;
 }
 
-#planet-facts-table tr:hover {
+#Facts-About-Planets tr:hover {
   background-color: #ddd;
 }
 
