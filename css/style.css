@@ -11,7 +11,7 @@ h1 {
   color: #eec303;
   text-decoration: underline;
   margin-bottom: 12px;
-  margin-top: -20px; 
+  margin-top: -15px; 
 }
 
 .Introduction {
@@ -21,7 +21,7 @@ h1 {
   color: #fa5e5e;
   font-style: italic;
   margin-bottom: 20px;
-  margin-top: -20px; 
+  margin-top: -15px; 
 }
 
 .gif-title {
@@ -135,6 +135,7 @@ header {
   margin-bottom: 10px;
   padding-left: 25px;
   position: relative;
+  color: #ffbb01;
 }
 
 .info-list li span {
