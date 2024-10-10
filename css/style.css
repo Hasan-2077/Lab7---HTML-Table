@@ -9,9 +9,9 @@ h1 {
   text-align: center;
   font-family: 'Bertram Let', sans-serif;
   font-size: 65px;
-  color: #ffd000;
+  color: #eec303;
   text-decoration: underline;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 }
 
 .Introduction {
@@ -20,7 +20,7 @@ h1 {
   font-size: 32px;
   color: #fa5e5e;
   font-style: italic;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 }
 
 .gif-title {
@@ -36,16 +36,16 @@ h1 {
   display: block;
   margin: 0 auto;
   width: 33%;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
 }
 
 .solar-system-text {
   text-align: center;
   font-family: 'BernhardFashion BT', sans-serif;
-  font-size: 25px;
+  font-size: 20px;
   color: #d602a8;
   margin: 30px;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 }
 
 .table-intro-text {
@@ -106,17 +106,17 @@ header {
   font-size: 18px;
   color: #333;
   line-height: 1.6;
-  list-style-type: none; /* Remove default bullets */
+  list-style-type: none;
 }
 
 .info-list li {
   margin-bottom: 10px;
   padding-left: 25px;
-  position: relative;
+  position: center;
 }
 
 .info-list li span {
-  color: green; /* Checkmark color */
+  color: rgb(2, 255, 2);
   font-size: 22px;
   position: absolute;
   left: 0;
