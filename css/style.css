@@ -1,5 +1,4 @@
 body {
-  font-family: 'Bertram Let', sans-serif;
   background-color: #f0f8ff;
   margin: 0;
   padding: 16px;
@@ -17,7 +16,7 @@ h1 {
 .Introduction {
   text-align: left;
   font-family: 'BernhardFashion BT', sans-serif;
-  font-size: 30x;
+  font-size: 40x;
   color: #fa5e5e;
   font-style: italic;
   margin-bottom: 20px;
@@ -53,16 +52,6 @@ h1 {
   justify-content: space-evenly;
   align-items: center;
   margin: 30px 0;
-}
-
-.planet {
-  text-align: center;
-}
-
-.planet-gif {
-  width: 150px;
-  height: 150px;
-  border: 1px solid #c40101;
 }
 
 .table-intro-text {
@@ -116,6 +105,19 @@ h1 {
 
 header {
   padding-bottom: 20px;
+}
+
+.planet {
+  text-align: center;
+  font-family: 'BernhardFashion BT', sans-serif;
+  font-size: 30px;
+
+}
+
+.planet-gif {
+  width: 150px;
+  height: 150px;
+  border: 1px solid #ffbb01;
 }
 
 .info-list {
