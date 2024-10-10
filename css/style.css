@@ -9,9 +9,9 @@ h1 {
   text-align: center;
   font-family: 'Bertram Let', sans-serif;
   font-size: 65px;
-  color: #05d7e6;
+  color: #ffd000;
   text-decoration: underline;
-  margin-bottom: 20px;
+  margin-bottom: 38px;
 }
 
 .Introduction {
@@ -20,7 +20,7 @@ h1 {
   font-size: 32px;
   color: #fa5e5e;
   font-style: italic;
-  margin-bottom: 30px;
+  margin-bottom: 35px;
 }
 
 .gif-title {
@@ -29,21 +29,21 @@ h1 {
   font-size: 38px;
   color: rgb(187, 1, 1);
   margin-top: 20px;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
 }
 
 .solar-system-gif {
   display: block;
   margin: 0 auto;
-  width: 35%;
+  width: 33%;
 }
 
 .solar-system-text {
   text-align: center;
   font-family: 'BernhardFashion BT', sans-serif;
-  font-size: 28px;
+  font-size: 25px;
   color: #d602a8;
-  margin: 15px 0;
+  margin: 35px;
 }
 
 .table-intro-text {
@@ -52,7 +52,7 @@ h1 {
   font-size: 32px;
   font-style: italic;
   color: #fa5e5e;
-  margin-bottom: 30px;
+  margin-bottom: 8px;
 }
 
 #Facts-About-Planets {
