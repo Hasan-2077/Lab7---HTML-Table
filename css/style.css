@@ -42,6 +42,7 @@ h1 {
   font-family: 'Arial', 'Helvetica', sans-serif;
   font-size: 65px;
   color: #ffd000;
+  font-family: 'Sixtyfour Convergence', sans-serif;
   text-decoration: underline;
 }
 
@@ -49,7 +50,7 @@ h1 {
   text-align: left;
   font-family: 'Georgia', 'Times New Roman', serif;
   font-size: 30px;
-  color: #fa5e5e;
+  color: #1db7ff;
   font-style: italic;
   margin-bottom: 20px;
   margin-top: -20px;
