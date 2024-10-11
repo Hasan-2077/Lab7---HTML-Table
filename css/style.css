@@ -167,10 +167,6 @@ h1 {
   color: #0099ff;
 }
 
-.info-list li span.keyword {
-  color: #f16100;
-  font-weight: bold;
-}
 .info-list li span {
   color: rgb(0, 252, 13);
   font-size: 22px;
