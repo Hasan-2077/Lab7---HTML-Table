@@ -174,3 +174,35 @@ h1 {
   left: 0;
   top: 0;
 }
+
+.learn-more-text {
+  font-family: 'Georgia', 'Times New Roman', serif;
+  font-size: 28px;
+  color: #c20000;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.learn-more-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.learn-more-list li {
+  font-size: 25px;
+  color: #fff;
+  margin-bottom: 8px;
+}
+
+.green-check {
+  color: green;
+  font-size: 25px;
+  margin-right: 10px;
+}
+
+.learn-more-list a {
+  color: #00bfff;
+  text-decoration: none;
+}
+
