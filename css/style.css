@@ -3,8 +3,6 @@ body {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  background-color: rgba(0, 0, 0, 0.5);
-  background-blend-mode: darken;
   margin: 0;
   padding: 16px;
   color: white;
