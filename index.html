@@ -22,133 +22,145 @@
     </header>
 
     <main>
-        <!-- Introduction Statement -->
-        <p class="Introduction">
-            Hi! I am Hasan and welcome to my Planets webpage! This site is dedicated to provide you with insightful information about four unique planets within our solar system.
-        </p>
+        <!-- Introduction Section -->
+        <section>
+            <p class="Introduction">
+                Hi! I am Hasan and welcome to my Planets webpage! This site is dedicated to provide you with insightful information about four unique planets within our solar system.
+            </p>
+        </section>
 
-        <!-- Section dedicated to the solar system GIF -->
-        <h2 class="gif-title">Our Solar System</h2>
+        <!-- Solar System Section -->
+        <section>
+            <h2 class="gif-title">Our Solar System</h2>
 
-        <!-- Solar system GIF inclusion -->
-        <img src="images/planets-solar-system.gif" alt="Gif of our solar system (not in scale)" class="solar-system-gif">
+            <!-- Solar system GIF inclusion -->
+            <img src="images/planets-solar-system.gif" alt="Gif of our solar system (not in scale)" class="solar-system-gif">
 
-        <!-- Additional info about the solar system -->
-        <p class="solar-system-text">
-            Starting from the left: Sun, Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus and finally Neptune.
-        </p>
+            <!-- Additional info about the solar system -->
+            <p class="solar-system-text">
+                Starting from the left: Sun, Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus and finally Neptune.
+            </p>
+        </section>
 
-        <!-- Introductory text for table of information -->
-        <p class="table-intro-text">
-            Below we have a table highlighting some key features of four planets from the solar system - Jupiter, Saturn, Uranus and Neptune.
-        </p>
+        <!-- Planet Information Section -->
+        <section>
+            <!-- Introductory text for table of information -->
+            <p class="table-intro-text">
+                Below we have a table highlighting some key features of four planets from the solar system - Jupiter, Saturn, Uranus, and Neptune.
+            </p>
 
-        <!-- Table displaying key facts about the selected planets -->
-        <table id="Facts-About-Planets">
-            <thead>
-                <!-- Table headers specifying data fields -->
-                <tr>
-                    <th>Planet</th>
-                    <th>Mass (10^24 kg)</th>
-                    <th>Diameter (km)</th>
-                    <th>Escape Velocity (km/s)</th>
-                    <th>Orbital Period (days)</th>
-                    <th>Mean Temperature (°C)</th>
-                    <th>Number of Moons</th>
-                    <th>Ring System</th>
-                </tr>
-            </thead>
-            <tbody>
-                <!-- Jupiter data -->
-                <tr>
-                    <td>Jupiter</td>
-                    <td>1898</td>
-                    <td>142,984</td>
-                    <td>59.5</td>
-                    <td>4,331</td>
-                    <td>-110</td>
-                    <td>95</td>
-                    <td>Yes</td>
-                </tr>
-                <!-- Saturn data -->
-                <tr>
-                    <td>Saturn</td>
-                    <td>568</td>
-                    <td>120,536</td>
-                    <td>35.5</td>
-                    <td>10,747</td>
-                    <td>-140</td>
-                    <td>83</td>
-                    <td>Yes</td>
-                </tr>
-                <!-- Uranus data -->
-                <tr>
-                    <td>Uranus</td>
-                    <td>86.8</td>
-                    <td>51,118</td>
-                    <td>21.3</td>
-                    <td>30,589</td>
-                    <td>-195</td>
-                    <td>27</td>
-                    <td>Yes</td>
-                </tr>
-                <!-- Neptune data -->
-                <tr>
-                    <td>Neptune</td>
-                    <td>102</td>
-                    <td>49,528</td>
-                    <td>23.5</td>
-                    <td>59,800</td>
-                    <td>-200</td>
-                    <td>14</td>
-                    <td>Yes</td>
-                </tr>
-            </tbody>
-        </table>
+            <!-- Table displaying key facts about the selected planets -->
+            <table id="Facts-About-Planets">
+                <thead>
+                    <!-- Table headers specifying data fields -->
+                    <tr>
+                        <th>Planet</th>
+                        <th>Mass (10^24 kg)</th>
+                        <th>Diameter (km)</th>
+                        <th>Escape Velocity (km/s)</th>
+                        <th>Orbital Period (days)</th>
+                        <th>Mean Temperature (°C)</th>
+                        <th>Number of Moons</th>
+                        <th>Ring System</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Jupiter data -->
+                    <tr>
+                        <td>Jupiter</td>
+                        <td>1898</td>
+                        <td>142,984</td>
+                        <td>59.5</td>
+                        <td>4,331</td>
+                        <td>-110</td>
+                        <td>95</td>
+                        <td>Yes</td>
+                    </tr>
+                    <!-- Saturn data -->
+                    <tr>
+                        <td>Saturn</td>
+                        <td>568</td>
+                        <td>120,536</td>
+                        <td>35.5</td>
+                        <td>10,747</td>
+                        <td>-140</td>
+                        <td>83</td>
+                        <td>Yes</td>
+                    </tr>
+                    <!-- Uranus data -->
+                    <tr>
+                        <td>Uranus</td>
+                        <td>86.8</td>
+                        <td>51,118</td>
+                        <td>21.3</td>
+                        <td>30,589</td>
+                        <td>-195</td>
+                        <td>27</td>
+                        <td>Yes</td>
+                    </tr>
+                    <!-- Neptune data -->
+                    <tr>
+                        <td>Neptune</td>
+                        <td>102</td>
+                        <td>49,528</td>
+                        <td>23.5</td>
+                        <td>59,800</td>
+                        <td>-200</td>
+                        <td>14</td>
+                        <td>Yes</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
 
-        <!-- GIFs for each planet with labels -->
-        <div class="planet-gif-container">
-            <div class="planet">
-                <img src="images/jupiter.gif" alt="Jupiter GIF" class="planet-gif">
-                <p>Jupiter</p>
+        <!-- Planet GIF Section -->
+        <section>
+            <div class="planet-gif-container">
+                <div class="planet">
+                    <img src="images/jupiter.gif" alt="Jupiter GIF" class="planet-gif">
+                    <p>Jupiter</p>
+                </div>
+                <div class="planet">
+                    <img src="images/saturn.gif" alt="Saturn GIF" class="planet-gif">
+                    <p>Saturn</p>
+                </div>
+                <div class="planet">
+                    <img src="images/uranus.gif" alt="Uranus GIF" class="planet-gif">
+                    <p>Uranus</p>
+                </div>
+                <div class="planet">
+                    <img src="images/neptune.gif" alt="Neptune GIF" class="planet-gif">
+                    <p>Neptune</p>
+                </div>
             </div>
-            <div class="planet">
-                <img src="images/saturn.gif" alt="Saturn GIF" class="planet-gif">
-                <p>Saturn</p>
-            </div>
-            <div class="planet">
-                <img src="images/uranus.gif" alt="Uranus GIF" class="planet-gif">
-                <p>Uranus</p>
-            </div>
-            <div class="planet">
-                <img src="images/neptune.gif" alt="Neptune GIF" class="planet-gif">
-                <p>Neptune</p>
-            </div>
-        </div>
-        
-        <!-- Info list for key terms used in the table -->
-        <ul class="info-list">
-            <li><span>&#10003;</span> Mass (10^24 kg): roughly equivalent to the mass of the Earth, which is approximately 5.972 × 10^24 kilograms; essentially, it represents a very large mass on the scale of planets.</li>
-            <li><span>&#10003;</span> Diameter (km): the distance across a planet, measured from one side to the other through its center, expressed in kilometers (km).</li>
-            <li><span>&#10003;</span> Escape Velocity (km/s): the minimum speed an object needs to be traveling to completely break free from the planet's gravitational pull and escape into space, measured in kilometers per second (km/s).</li>
-            <li><span>&#10003;</span> Orbital Period (days): the amount of time it takes for that planet to complete one full orbit around the Sun, measured in Earth days.</li>
-            <li><span>&#10003;</span> Mean Temperature (°C): the average temperature across the entire surface of a planet.</li>
-            <li><span>&#10003;</span> Number of Moons: Number of moons.</li>
-            <li><span>&#10003;</span> Ring system: Do they have rings or not?</li>
-        </ul>
+        </section>
 
-        <!-- Links -->
-        <p class="learn-more-text">
-            If you want to learn more about the solar system or any of these four planets further, please click their respective names below:
-        </p>
-        <ul class="learn-more-list">
-            <li><span class="green-check">&#10003;</span> <a href="https://en.wikipedia.org/wiki/Solar_System" target="_blank">The Solar System</a></li>
-            <li><span class="green-check">&#10003;</span> <a href="https://en.wikipedia.org/wiki/Jupiter" target="_blank">Jupiter</a></li>
-            <li><span class="green-check">&#10003;</span> <a href="https://en.wikipedia.org/wiki/Saturn" target="_blank">Saturn</a></li>
-            <li><span class="green-check">&#10003;</span> <a href="https://en.wikipedia.org/wiki/Uranus" target="_blank">Uranus</a></li>
-            <li><span class="green-check">&#10003;</span> <a href="https://en.wikipedia.org/wiki/Neptune" target="_blank">Neptune</a></li>
-        </ul>        
-        
+        <!-- Info List Section -->
+        <section>
+            <ul class="info-list">
+                <li><span>&#10003;</span> Mass (10^24 kg): roughly equivalent to the mass of the Earth, which is approximately 5.972 × 10^24 kilograms; essentially, it represents a very large mass on the scale of planets.</li>
+                <li><span>&#10003;</span> Diameter (km): the distance across a planet, measured from one side to the other through its center, expressed in kilometers (km).</li>
+                <li><span>&#10003;</span> Escape Velocity (km/s): the minimum speed an object needs to be traveling to completely break free from the planet's gravitational pull and escape into space, measured in kilometers per second (km/s).</li>
+                <li><span>&#10003;</span> Orbital Period (days): the amount of time it takes for that planet to complete one full orbit around the Sun, measured in Earth days.</li>
+                <li><span>&#10003;</span> Mean Temperature (°C): the average temperature across the entire surface of a planet.</li>
+                <li><span>&#10003;</span> Number of Moons: Number of moons.</li>
+                <li><span>&#10003;</span> Ring system: Do they have rings or not?</li>
+            </ul>
+        </section>
+
+        <!-- Learn More Section -->
+        <section>
+            <p class="learn-more-text">
+                If you want to learn more about the solar system or any of these four planets further, please click their respective names below:
+            </p>
+            <ul class="learn-more-list">
+                <li><span class="green-check">&#10003;</span> <a href="https://en.wikipedia.org/wiki/Solar_System" target="_blank">The Solar System</a></li>
+                <li><span class="green-check">&#10003;</span> <a href="https://en.wikipedia.org/wiki/Jupiter" target="_blank">Jupiter</a></li>
+                <li><span class="green-check">&#10003;</span> <a href="https://en.wikipedia.org/wiki/Saturn" target="_blank">Saturn</a></li>
+                <li><span class="green-check">&#10003;</span> <a href="https://en.wikipedia.org/wiki/Uranus" target="_blank">Uranus</a></li>
+                <li><span class="green-check">&#10003;</span> <a href="https://en.wikipedia.org/wiki/Neptune" target="_blank">Neptune</a></li>
+            </ul>        
+        </section>
     </main>
 </body>
 </html>
